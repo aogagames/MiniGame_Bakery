@@ -1,0 +1,31 @@
+# --- PICO VibeLab submission: ignored build / local artifacts ---
+# local machine SDK path (must never be committed)
+/local.properties
+
+# build outputs and caches (root)
+/build/
+/.gradle/
+/.cxx/
+
+# build outputs and caches (modules)
+/launcher/build/
+/launcher/.gradle/
+/launcher/.cxx/
+/unityLibrary/build/
+/unityLibrary/.gradle/
+/unityLibrary/.cxx/
+/unityLibrary/xrmanifest.androidlib/build/
+/unityLibrary/xrmanifest.androidlib/.gradle/
+/unityLibrary/xrmanifest.androidlib/.cxx/
+
+# IL2CPP intermediate output (prebuilt libil2cpp.so is committed instead)
+/unityLibrary/src/main/Il2CppOutputProject/
+
+# symbol outputs
+/unityLibrary/symbols/
+
+# Unity Burst debug information folder (name comes from productName)
+/*_BurstDebugInformation_DoNotShip/
+
+# packaged artifacts
+*.apk
